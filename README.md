@@ -14,4 +14,5 @@ Before running this application you need to make sure :
 * To build the project, in the folder containing `pom.xml` use the terminal to run `mvn package`
 * Run the project using `java -jar target/java-app-0.1.0.jar`
 * Use postman to import the included file `Test-app.postman_collection.json` and run the post request
-* Observe in the 2 terminals
+* Observe in the 2 terminals for the 2 applications how the event is being parsed and processed, change the 
+event parameters in postman and make sure it is being appended to `events.csv` file
